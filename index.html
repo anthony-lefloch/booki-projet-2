@@ -16,10 +16,61 @@
 
 <body>
     <div class="main-container">
-        <header></header>
+        <header class="site-header">
+            <img class="logo" src="./images/logo/Booki.png" alt="Logo Booki">
+            <nav>
+                <a href="#hebergements">Hébergements</a>
+                <a href="#activites">Activités</a>
+            </nav>
+        </header>
+
         <main>
+            <section class="search-section">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre-ville ou en pleine nature</p>
+
+                <form class="search-form">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+
+                    <input type="text" value="Marseille, France">
+
+                    <button type="submit">
+                        <span>Rechercher</span>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </section>
+
+            <section class="filters-section">
+                <h2>Filtres</h2>
+
+                <div class="filters">
+                    <button class="filter-button">
+                        <i class="fa-solid fa-money-bill-wave"></i>
+                        <span>Économique</span>
+                    </button>
+
+                    <button class="filter-button">
+                        <i class="fa-solid fa-person"></i>
+                        <span>Familial</span>
+                    </button>
+
+                    <button class="filter-button">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>Romantique</span>
+                    </button>
+
+                    <button class="filter-button">
+                        <i class="fa-solid fa-fire"></i>
+                        <span>Nos pépites</span>
+                    </button>
+                </div>
+            </section>
+
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section id="hebergements" class="hebergements">
 
                 </section>
                 <section class="populaires">
