@@ -266,7 +266,14 @@ nav a:hover {
     margin-bottom: 5px;
 }
 
+/****** Activites ***********/
+.activites-cards a {
+    width: 25%;
+}
 
+.activites-cards {
+    display: flex;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
