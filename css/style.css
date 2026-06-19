@@ -452,15 +452,13 @@ footer li {
 
     footer {
         margin-top: 60px;
-
     }
 
     footer div {
         padding-left: 45px;
         box-sizing: border-box;
     }
-
-    }
+}
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
